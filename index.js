@@ -4,7 +4,7 @@ const cors = require("cors")
 const session = require("express-session")
 const KnexSessionStore = require("connect-session-knex")(session)
 const db = require("./database/config")
-const usersRouter = require("./users/users-router")
+const usersRouter = require("./users/users-routers")
 
 const server = express()
 const port = process.env.PORT || 5000

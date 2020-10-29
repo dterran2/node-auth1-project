@@ -1,4 +1,4 @@
-const bcrypt = require('bcryptijs')
+const bcrypt = require('bcryptjs')
 const Users = require('./users-models')
 
 function restrict(){
